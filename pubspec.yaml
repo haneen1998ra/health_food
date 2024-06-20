@@ -9,6 +9,32 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: 
+  jiffy: 
+  intl: 
+  http: 
+  cached_network_image:  
+  image_picker: 
+  show_up_animation: 
+  auto_animated:  
+  flutter_local_notifications: 
+  cloud_firestore: 
+  flutter_svg: 
+  font_awesome_flutter: 
+  fluttericon:   
+  device_preview: 
+  responsive_builder: 
+  image_pickers:
+  email_auth:  
+  file_picker:
+  email_otp:
+    
+  
+
+
+
+
+  
 
 dev_dependencies:
   flutter_test:
@@ -17,13 +43,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+   - assets/images/
   #  - images/a_dot_ham.jpeg
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Montaga
+      fonts:
+        - asset: assets/fonts/Montaga-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
